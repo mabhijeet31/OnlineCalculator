@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="183.584875">
+<testcase classname="verify Clear function of the calculator" name="001 - Test to verify clear function" time="32.896654">
+<system-out><![CDATA[Given I navigate to calcultor page..........................................passed
+Then I validate the clear button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify minus function of the calculator" name="001 - Test to verify minus function" time="30.810906">
+<system-out><![CDATA[Given I navigate to calcultor page..........................................passed
+When I substract "9" with "5"...............................................passed
+Then I validate the result "4"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify minus function of the calculator" name="002 - Test to verify minus function" time="25.505361">
+<system-out><![CDATA[Given I navigate to calcultor page..........................................passed
+When I substract "2" with "8"...............................................passed
+Then I validate the result "-6".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify minus function of the calculator" name="003 - Test to verify minus function" time="23.293349">
+<system-out><![CDATA[Given I navigate to calcultor page..........................................passed
+When I substract "0" with "5"...............................................passed
+Then I validate the result "-5".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify division function of the calculator" name="001 - Test to verify division function" time="27.29315">
+<system-out><![CDATA[Given I navigate to calcultor page..........................................passed
+When I division "9" with "3"................................................passed
+Then I validate the result "3"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify division function of the calculator" name="002 - Test to verify division function" time="20.471929">
+<system-out><![CDATA[Given I navigate to calcultor page..........................................passed
+When I division "8" with "5"................................................passed
+Then I validate the result "1.6"............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify division function of the calculator" name="003 - Test to verify division function" time="23.313526">
+<system-out><![CDATA[Given I navigate to calcultor page..........................................passed
+When I division "0" with "4"................................................passed
+Then I validate the result "4"..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
